@@ -1,0 +1,78 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+
+  height: 100vh;
+
+  justify-content: center;
+  align-items: center;
+  background-color: #010e1b;
+}
+
+.home-section {
+  width: 350px;
+
+  padding: 3rem 2rem;
+  border-radius: 30px;
+  background-color: #09203a;
+}
+
+.home-section h2 {
+  color: #b0b8d4;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 300;
+}
+
+.home-section p {
+  padding-block: 0.7rem;
+  color: #b0b8d4;
+}
+/* .home-about p {
+  color: #b0b8d4;
+  padding-block: 1rem;
+} */
+
+.home-routes {
+  padding-top: 2rem;
+  font-size: 0.8rem;
+  word-spacing: 3px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.home-routes button {
+  border: none;
+  transition: 0.2s;
+  margin-right: 8px;
+  margin-bottom: 10px;
+  background-color: #03407c;
+  border-radius: 7px;
+}
+
+.home-routes a {
+  border-radius: 5px;
+  display: inline-block;
+  letter-spacing: 1px;
+  padding-inline: 1.2rem;
+  padding-block: 0.7rem;
+  text-decoration: none;
+
+  color: #fff;
+}
+.home-routes .arr {
+  color: white;
+  /* margin-left: -10px; */
+  padding-right: 25px;
+  width: 35px;
+}
+
+.social-icons a {
+  color: black;
+  display: inline-block;
+  /* justify-content: space-around; */
+}
+
+.home-routes button:hover {
+  transform: scale(1.05);
+}

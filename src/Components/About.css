@@ -1,0 +1,89 @@
+.about-page {
+  display: flex;
+  min-height: 100vh;
+
+  background-color: #010e1b;
+  justify-content: center;
+}
+.about-container {
+  width: 80vw;
+}
+
+.about-left {
+  display: flex;
+  margin-block: 2rem;
+}
+
+.about-left img {
+  width: 300px;
+  border-radius: 20px;
+  max-height: 400px;
+}
+
+.about-right {
+  color: #fff;
+  margin: 20px;
+}
+
+.about-bio {
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.deep-info {
+  display: flex;
+
+  flex-wrap: wrap;
+}
+
+.basics-info {
+  display: flex;
+  min-width: 40%;
+  margin: 10px;
+}
+
+.arrow-right {
+  color: #12d640;
+}
+.interest-title {
+  color: #fff;
+  margin-top: 2rem;
+}
+
+.interests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.each-interest {
+  background-color: #09203a;
+  padding: 1.2rem;
+  margin-left: 0;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  width: 35%;
+  transition: 0.5s;
+  font-weight: 400;
+  justify-content: flex-start;
+}
+
+.each-interest svg {
+  width: 3rem;
+  padding: 0.3rem;
+  margin-inline: 10px;
+}
+
+.each-interest:hover {
+  background-color: #0d2744;
+  transform: scale(1.05);
+}
+
+@media (max-width: 1161px) {
+  .about-container {
+    width: 82vw;
+  }
+}
